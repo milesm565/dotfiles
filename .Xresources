@@ -17,3 +17,4 @@
 
 ! URXVT CONFIG
 URxvt*font: xft:monospace:size=25
+URxvt.scrollBar: false
