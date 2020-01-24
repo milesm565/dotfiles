@@ -26,4 +26,7 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
+PATH="$HOME/.config/panel:$PATH"
+
+
 /usr/bin/setxkbmap -option "caps:swapescape"
