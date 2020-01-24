@@ -7,6 +7,8 @@ unfocused=#000000
 
 feh --bg-center ~/wallpapers/demonslayer1.png
 
+xset +fp /home/miles/.local/share/fonts
+xset fp rehash
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 
@@ -26,4 +28,4 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
-panel &
+polybar top &
